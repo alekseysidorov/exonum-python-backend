@@ -4,6 +4,5 @@ members = [
     "examples/node",
 ]
 
-
 [patch.crates-io]
-sysinfo = { git = "https://github.com/popzxc/sysinfo.git", rev = "c2e92f27781613fb37fd574b002dec68e8fe29f0" }
+sysinfo = { git = "https://github.com/alekseysidorov/sysinfo.git", rev = "0c3905cd09ca28dc459e28d857f34d3f547e728c" }

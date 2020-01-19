@@ -11,10 +11,13 @@ crate-type = ["dylib"]
 [dependencies]
 futures = "0.1.25"
 lazy_static = "1.0.1"
-sysinfo = "0.9.5"
+sysinfo = "0.9.6"
 log = "0.4"
 
-exonum = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
-exonum-derive = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
-exonum-merkledb = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
-exonum-supervisor = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
+exonum = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
+exonum-derive = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
+exonum-merkledb = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
+exonum-supervisor = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
+
+# [patch.crates-io]
+# sysinfo = { git = "https://github.com/popzxc/sysinfo.git", rev = "c2e92f27781613fb37fd574b002dec68e8fe29f0" }

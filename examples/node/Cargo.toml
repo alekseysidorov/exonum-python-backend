@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-exonum = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
-exonum-cli = { git = "https://github.com/exonum/exonum.git", branch="dynamic_services" }
+exonum = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
+exonum-cli = { git = "https://github.com/exonum/exonum.git", rev = "4b45f0eafd1d8de7149513a8126cc8ec0671fe9e" }
 rust-interface = { version = "0.1.0", path="../../rust_interface"}
 failure = "0.1.5"
